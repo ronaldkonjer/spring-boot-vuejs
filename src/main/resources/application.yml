@@ -1,0 +1,63 @@
+---
+# this configuration needs to correspond to the Vue.js frontends' vue.config.js devServer.proxy.target configuration!
+# otherwise you may experience errors like: Proxy error: Could not proxy request /api/hello from localhost:8080 to http://localhost:8098... (ECONNREFUSED).
+server:
+  port: 10270
+#  servlet:
+#    context-path: "/"
+#  jetty:
+#    accesslog:
+#      enabled: true
+#    connection-idle-timeout: 10s
+#    max-http-form-post-size: 200000B
+#    threads:
+#      max: 200
+#      min: 8
+#  max-http-header-size: 8KB
+
+#server.port: 10270
+#spring.security.user.name: admin
+#spring.security.user.password: nimda
+#management endpoints on a separate port
+#management:
+#  port: 10271
+#  security:
+#    enabled: false # management port is internal only. no need to secure it.
+#
+##default project info followed by actual injected pom-specified values.
+#project:
+#  name: partnernet-spring-boot-vuejs
+#  version: 0.0.1
+#  description: Demo project for Spring Boot and Vue.js
+#info:
+#  build:
+#    artifact: ${project.artifactId}
+#    name: ${project.name}
+#    description: ${project.description}
+#    version: ${project.version}
+#
+## Logging
+##logging:
+##  level: INFO
+##  appenders:
+##    - type: console
+##  loggers:
+##    eu.comparegroup.services.partnernet: INFO
+#    #springframework: ERROR
+#    #eu.comparegroup.services.partnernet.repo.ShopPerformanceRepositoryImpl: INFO
+#logging:
+#  level:
+#    org:
+#      springframework: DEBUG
+#
+#
+#### Application settings ###
+#artifactId: ${project.artifactId}
+
+spring:
+#  main:
+#    banner-mode: "off"
+  security:
+    user:
+      name: admin
+      password: nimda
