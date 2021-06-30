@@ -1,6 +1,6 @@
 @file:JvmName("User")
 @file:JvmMultifileClass
-package kotlin.eu.comparegroup.partnernet.domain
+package eu.comparegroup.partnernet.domain
 
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue

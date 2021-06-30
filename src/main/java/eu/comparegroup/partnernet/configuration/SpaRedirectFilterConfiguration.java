@@ -1,4 +1,4 @@
-package java.eu.comparegroup.partnernet.configuration;
+package eu.comparegroup.partnernet.configuration;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

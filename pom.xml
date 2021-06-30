@@ -27,7 +27,7 @@
 		<java.version>11</java.version>
 		<kotlin.version>1.4.32</kotlin.version>
 
-		<start.class>kotlin.eu.comparegroup.partnernet.PartnernetSpringBootVuejsApplication</start.class>
+		<start.class>eu.comparegroup.partnernet.PartnernetSpringBootVuejsApplication</start.class>
 <!--		<spring-boot.version>2.4.5</spring-boot.version>-->
 <!--		<java.version>11</java.version>-->
 

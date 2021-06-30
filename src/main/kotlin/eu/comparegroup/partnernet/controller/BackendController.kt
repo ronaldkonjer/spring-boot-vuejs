@@ -1,8 +1,8 @@
-package kotlin.eu.comparegroup.partnernet.controller
+package eu.comparegroup.partnernet.controller
 
 
-import kotlin.eu.comparegroup.partnernet.domain.User
-import kotlin.eu.comparegroup.partnernet.exception.UserNotFoundException
+import eu.comparegroup.partnernet.domain.User
+import eu.comparegroup.partnernet.exception.UserNotFoundException
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.HttpStatus
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestMethod
 import org.springframework.web.bind.annotation.ResponseStatus
 import org.springframework.web.bind.annotation.RestController
-import java.eu.comparegroup.partnernet.repository.UserRepository
+import eu.comparegroup.partnernet.repository.UserRepository
 
 @RestController // @RestController instead of vanilla @Controller and @ResponseBody
 @RequestMapping("/api")

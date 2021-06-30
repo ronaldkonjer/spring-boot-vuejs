@@ -1,6 +1,6 @@
 @file:JvmName("UserNotFoundException")
 @file:JvmMultifileClass
-package kotlin.eu.comparegroup.partnernet.exception
+package eu.comparegroup.partnernet.exception
 
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.ResponseStatus

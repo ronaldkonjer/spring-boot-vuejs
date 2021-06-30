@@ -1,7 +1,7 @@
 package eu.comparegroup.partnernet.configuration;
 
 
-import kotlin.eu.comparegroup.partnernet.PartnernetSpringBootVuejsApplication;
+import eu.comparegroup.partnernet.PartnernetSpringBootVuejsApplication;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

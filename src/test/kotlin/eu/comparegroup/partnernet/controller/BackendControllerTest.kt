@@ -1,7 +1,7 @@
 package eu.comparegroup.partnernet.controller
 
-import kotlin.eu.comparegroup.partnernet.PartnernetSpringBootVuejsApplication
-import kotlin.eu.comparegroup.partnernet.domain.User
+import eu.comparegroup.partnernet.PartnernetSpringBootVuejsApplication
+import eu.comparegroup.partnernet.domain.User
 import io.restassured.RestAssured
 import io.restassured.RestAssured.`when`
 import io.restassured.RestAssured.given
@@ -14,7 +14,7 @@ import org.junit.jupiter.api.extension.ExtendWith
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.boot.web.server.LocalServerPort
 import org.springframework.test.context.junit.jupiter.SpringExtension
-import kotlin.eu.comparegroup.partnernet.controller.BackendController
+import eu.comparegroup.partnernet.controller.BackendController
 
 @ExtendWith(SpringExtension::class)
 @SpringBootTest(

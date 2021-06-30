@@ -1,4 +1,4 @@
-package kotlin.eu.comparegroup.partnernet
+package eu.comparegroup.partnernet
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

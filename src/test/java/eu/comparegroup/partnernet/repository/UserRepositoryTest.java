@@ -1,6 +1,6 @@
-package java.eu.comparegroup.partnernet.repository;
+package eu.comparegroup.partnernet.repository;
 
-import kotlin.eu.comparegroup.partnernet.domain.User;
+import eu.comparegroup.partnernet.domain.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

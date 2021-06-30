@@ -1,6 +1,6 @@
 package eu.comparegroup.partnernet.repository;
 
-import kotlin.eu.comparegroup.partnernet.domain.User;
+import eu.comparegroup.partnernet.domain.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
